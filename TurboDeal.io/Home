@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!--required meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--title for this document-->
+    <title>TurboDeal &mdash; Sports Betting Exchange</title>
+    <!--favicon for this document-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!--keywords for this  document-->
+    <meta name="keywords" content="Fantasy, Sports, Stock, Exchange, Betting, SportsBook">
+    <!--description for this document-->
+    <meta name="description" content="Fantasy Sports Stock Exchange Betting SportsBook">
+    <!--author of this document-->
+    <meta name="author" content="TurboDeal">
+
+    <!--bootstrap 5 minified css source-->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!--fontawesome 5 minified css source-->
+    <link rel="stylesheet" href="assets/icons/font_awesome/css/all.min.css">
+    <!--flaticon css source-->
+    <link rel="stylesheet" href="assets/icons/flat_icon/flaticon.css">
+    <!--owl carousel-2.3.4 minified css source-->
+    <link rel="stylesheet" href="assets/css/vendor/owl.carousel.min.css">
+    <!--owl carousel-2.3.4 theme default minified css source-->
+    <link rel="stylesheet" href="assets/css/vendor/owl.theme.default.min.css">
+    <!--magnific popup css source-->
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <!--jquery nice select css source-->
+    <link rel="stylesheet" href="assets/css/vendor/nice-select.css">
+    <!--animate css source-->
+    <link rel="stylesheet" href="assets/css/vendor/animate.css">
+    <!--custom css start-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!--===preloader start===-->
+    <div class="loader_wrapper" id="preloader" >
+        <div class="loader">
+            <div class="face">
+                <div class="circle"></div>
+            </div>
+            <div class="face">
+                <div class="circle sd"></div>
+            </div>
+            <div class="percent">
+                <span class="counterr">100</span><span class="per">%</span>
+            </div>
+        </div>
+    </div>
+    <!--===preloader end===-->
+
+    <!--====header navbar start====-->
+    <header> 
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="https://turbodeal.io/">
+                    <img src="assets/images/logo.png" alt="Spovest Logo">
+                </a>
+                <div class="d-flex flex-row order-2 order-lg-3 user_info">
+                    <div class="group_btn d-none d-sm-block">
+                        <a href="https://turbodeal.io/" class="group_link log_in registration">Casino</a>
+                        <a href="https://turbodeal.io/" class="group_link registration hover">EXCHANGE</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDefault" aria-controls="navDefault" aria-expanded="false" aria-label="Toggle navigation" id="toggleIcon">
+                        <span class="bar_one"></span>
+                        <span class="bar_two"></span>
+                        <span class="bar_three"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end order-3 order-lg-2" id="navDefault">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Markets
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://turbodeal.io/">Teams</a></li>
+                                <li><a class="dropdown-item" href="https://turbodeal.io/">Players</a></li>
+                                <li><a class="dropdown-item" href="https://turbodeal.io/">Predictions</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.turbodeal.io/">SPORTSBOOK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="user-portfolio">MY PROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://docs.turbodeal.io/">WHITEPAPER</a>
+                        </li>
+                        <li class="nav-item d-block d-sm-none"> 
+                            <a class="nav-link registration" href="https://www.turbodeal.io/">EXCHANGE</a>
+                        </li>
+                        <li class="nav-item d-block d-sm-none">
+                            <a class="nav-link registration hover" href="https://www.turbodeal.io/">CASINO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--====header navbar end====-->
+
+    <!--====banner section start====-->
+    <section class="home_banner_wrapper">
+        <div class="container">
+            <div class="row home_banner_row d-flex align-items-center">
+                <div class="col-lg-5">
+                    <div class="inner">
+                        <h1 class="hero_title">The New Way to Invest in Sports</h1>
+                        <p class="section_info">Turbo is designed to create an innovative ‘Betting Exchange’ able to enhance the use of smart contracts and blockchain to facilitate the birth and growth of a professional,
+                             transparent , and sustainable ecosystem of sports betting.</p>
+                        <div class="btn_wrapper d-flex align-items-center">
+                            <div class="trade_btn">
+                                <a href="trade" class="btn btn-primary">Start Trading</a>
+                            </div>
+                            <!-- <div class="video_btn">
+                                <a class="video_popup" href="https://www.youtube.com/watch?v=uCik8-i2Hcc" title="YouTube video player">
+                                    <i class="flaticon-play-arrow"></i>
+                                </a>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="inner text-center">
+                        <img src="assets/images/home_banner/players.png" alt="Home Banner Illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====banner section end====-->
+
+    <!--====slider section start====-->
+    <section class="slider_wrapper">
+        <div class="container">
+            <div class="slider_row owl-carousel owl-theme">
+                <div class="slider_items d-flex align-items-center">
+                    <div class="left_col">
+                        <div class="img_wrapper d-flex align-items-center justify-content-center">
+                            <a href="player-profile" class="bg_pink">
+                                <img src="assets/images/slider/denverlogo.png" alt="Trader One">
+                            </a>
+                            <span class="bg_pink d-inline-flex align-items-center justify-content-center">NBA</span>
+                        </div>
+                    </div>
+                    <div class="right_col flex-grow-1">
+                        <h5>
+                            <a href="player-profile">Nikola Jokic</a>
+                        </h5>
+                        <p>Denver Nuggets</p>
+                        <div class="price_line d-flex align-items-center">
+                            <div class="price">
+                                <p><i class="fas fa-dollar-sign"></i> 7.92</p>
+                            </div>
+                            <div class="rate">
+                                <p>+5.11 <i class="fas fa-caret-up"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_items d-flex align-items-center">
+                    <div class="left_col">
+                        <div class="img_wrapper img_bg_two d-flex align-items-center justify-content-center">
+                            <a href="player-profile" class="bg_purple">
+                                <img src="assets/images/slider/juvelogo.png" alt="Trader Two">
+                            </a>
+                            <span class="bg_purple d-inline-flex align-items-center justify-content-center">SERIE A</span>
+                        </div>
+                    </div>
+                    <div class="right_col flex-grow-1">
+                        <h5>
+                            <a href="player-profile">C. Ronaldo</a>
+                        </h5>
+                        <p>Juventus Football Club</p>
+                        <div class="price_line d-flex align-items-center">
+                            <div class="price">
+                                <p><i class="fas fa-dollar-sign"></i> 10.65</p>
+                            </div>
+                            <div class="rate">
+                                <p>+10.80 <i class="fas fa-caret-up"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_items d-flex align-items-center">
+                    <div class="left_col">
+                        <div class="img_wrapper img_bg_three d-flex align-items-center justify-content-center">
+                            <a href="player-profile" class="bg_cyan">
+                                <img src="assets/images/slider/psglogo.png" alt="Trader Three">
+                            </a>
+                            <span class="bg_cyan d-inline-flex align-items-center justify-content-center">LIGUE 1</span>
+                        </div>
+                    </div>
+                    <div class="right_col flex-grow-1">
+                        <h5>
+                            <a href="player-profile">K. Mbappe</a>
+                        </h5>
+                        <p>Paris Saint-Germain</p>
+                        <div class="price_line d-flex align-items-center">
+                            <div class="price">
+                                <p><i class="fas fa-dollar-sign"></i> 14.55</p>
+                            </div>
+                            <div class="rate">
+                                <p>+4.10 <i class="fas fa-caret-up"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_items d-flex align-items-center">
+                    <div class="left_col">
+                        <div class="img_wrapper d-flex align-items-center justify-content-center">
+                            <a href="player-profile" class="bg_pink">
+                                <img src="assets/images/slider/netslogo.png" alt="Trader Four">
+                            </a>
+                            <span class="bg_pink d-inline-flex align-items-center justify-content-center">NBA</span>
+                        </div>
+                    </div>
+                    <div class="right_col flex-grow-1">
+                        <h5>
+                            <a href="player-profile">James Harden</a>
+                        </h5>
+                        <p>Brooklyn Nets</p>
+                        <div class="price_line d-flex align-items-center">
+                            <div class="price">
+                                <p><i class="fas fa-dollar-sign"></i> 6.94</p>
+                            </div>
+                            <div class="rate">
+                                <p>+7.19 <i class="fas fa-caret-up"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_items d-flex align-items-center">
+                    <div class="left_col">
+                        <div class="img_wrapper img_bg_two d-flex align-items-center justify-content-center">
+                            <a href="player-profile" class="bg_purple">
+                                <img src="assets/images/slider/bvblogo.png" alt="Trader Five">
+                            </a>
+                            <span class="bg_purple d-inline-flex align-items-center justify-content-center">BUNDESLIGA</span>
+                        </div>
+                    </div>
+                    <div class="right_col flex-grow-1">
+                        <h5>
+                            <a href="player-profile">Erling Haaland</a>
+                        </h5>
+                        <p>Borussia Dortmund</p>
+                        <div class="price_line d-flex align-items-center">
+                            <div class="price">
+                                <p><i class="fas fa-dollar-sign"></i> 13.99</p>
+                            </div>
+                            <div class="rate">
+                                <p>+5.13 <i class="fas fa-caret-up"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_items d-flex align-items-center">
+                    <div class="left_col">
+                        <div class="img_wrapper img_bg_three d-flex align-items-center justify-content-center">
+                            <a href="player-profile" class="bg_cyan">
+                                <img src="assets/images/slider/mercedeslogo.png" alt="Trader Six">
+                            </a>
+                            <span class="bg_cyan d-inline-flex align-items-center justify-content-center">F1</span>
+                        </div>
+                    </div>
+                    <div class="right_col flex-grow-1">
+                        <h5>
+                            <a href="player-profile">Lewis Hamilton</a>
+                        </h5>
+                        <p>Mercedes-AMG</p>
+                        <div class="price_line d-flex align-items-center">
+                            <div class="price">
+                                <p><i class="fas fa-dollar-sign"></i> 9.24</p>
+                            </div>
+                            <div class="rate">
+                                <p>+2.90 <i class="fas fa-caret-up"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====slider section end====-->
+
+    <!--====work section start====-->
+    <section class="work_section">
+        <div class="container">
+            <div class="work_wrapper text-center">
+                <h1 class="section_title">How does it work?</h1>
+                <p class="section_info">It's easier than you think. Follow 3 simple easy steps</p>
+            </div>
+            <div class="row work_row d-flex align-items-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="inner text-center">
+                        <div class="content_wrapper d-flex align-items-center justify-content-center">
+                            <div class="content d-flex align-items-center justify-content-center">
+                                <img src="assets/images/work/deposit.png" alt="Deposit Funds">
+                            </div>
+                        </div>
+                        <h4 class="secondary">Deposit Funds</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="inner text-center">
+                        <div class="content_wrapper arrow_container d-flex align-items-center justify-content-center">
+                            <div class="content d-flex align-items-center justify-content-center">
+                                <img src="assets/images/work/market.png" alt="Watch the market">
+                            </div>
+                        </div>
+                        <h4 class="secondary">Select the game/match that you would like to bet on</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="inner text-center">
+                        <div class="content_wrapper d-flex align-items-center justify-content-center">
+                            <div class="content d-flex align-items-center justify-content-center">
+                                <img src="assets/images/work/trade.png" alt="Make a Trade">
+                            </div>
+                        </div>
+                        <h4 class="secondary">Place your bet</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====work section end====-->
+
+    <!--====buy section start====-->
+    <section>
+        <div class="container">
+            <div class="buy_wrapper">
+                <div class="row buy_row d-flex align-items-center">
+                    <div class="col-lg-6 order-last order-lg-first">
+                        <div class="left_inner text-center text-lg-left">
+                            <img src="assets/images/buy/buy_illustration.png" alt="Buy Illustration">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="right_inner">
+                            <h1 class="section_title">Sports Betting Exchange?</h1>
+                            <p class="section_info">A sports betting exchange is a marketplace for trading sporting outcomes. Unlike a traditional sports betting platform, sports betting exchange eliminates the need for a central bookkeeper and enables users to place bets against one another.
+                            </p>
+                            <div class="inner_row d-flex align-items-center">
+                                <div class="left_col">
+                                    <div class="inner">
+                                        <img src="assets/images/buy/players.png" alt="Players">
+                                    </div>
+                                </div>
+                                <div class="right_col">
+                                    <div class="inner">
+                                        <p class="para">A stock traders main aim is to buy low and sell high.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner_row d-flex align-items-center">
+                                <div class="left_col">
+                                    <div class="inner">
+                                        <img src="assets/images/buy/invest.png" alt="Invest">
+                                    </div>
+                                </div>
+                                <div class="right_col">
+                                    <div class="inner">
+                                        <p class="para">The principles are exactly the same in sports, but we lay low and back high.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner_row d-flex align-items-center">
+                                <div class="left_col">
+                                    <div class="inner">
+                                        <img src="assets/images/buy/trade.png" alt="Trade">
+                                    </div>
+                                </div>
+                                <div class="right_col">
+                                    <div class="inner">
+                                        <p class="para">Making a profit, regardless of the result.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====buy section end====-->
+
+    <!--====play section start====-->
+    <section>
+        <div class="container">
+            <div class="row play_row d-flex align-items-center">
+                <div class="col-lg-5">
+                    <div class="inner">
+                        <h1 class="section_title">BETTING ON TOP POPULAR EVENTS AND TRENDS</h1>
+                        <p class="section_info">Betting against other customers removes the need for the margin that fixed-odds bookmakers incorporate into their prices and provides the opportunity for a more efficient marketplace, which is why you can often get better odds on the TurboDeal Exchange. Instead, customers pay a small commission, but on winnings only.</p>
+                        <div class="inner_row d-flex align-items-center">
+                            <div class="inner_col">
+                                <div class="left_col">
+                                    <img src="assets/images/play/payment.png" alt="Secure Payments">
+                                </div>
+                            </div>
+                            <div class="inner_col">
+                                <div class="right_col">
+                                    <h5>Secure Payments</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner_row d-flex align-items-center">
+                            <div class="inner_col">
+                                <div class="left_col">
+                                    <img src="assets/images/play/transparent.png" alt="Transparent">
+                                </div>
+                            </div>
+                            <div class="inner_col">
+                                <div class="right_col">
+                                    <h5>Transparent</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner_row d-flex align-items-center">
+                            <div class="inner_col">
+                                <div class="left_col">
+                                    <img src="assets/images/play/multi.png" alt="Multi Sports">
+                                </div>
+                            </div>
+                            <div class="inner_col">
+                                <div class="right_col">
+                                    <h5>Multi-Sports</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner_row d-flex align-items-center">
+                            <div class="inner_col">
+                                <div class="left_col">
+                                    <img src="assets/images/play/support.png" alt="24/7 Support">
+                                </div>
+                            </div>
+                            <div class="inner_col">
+                                <div class="right_col">
+                                    <h5>24/7 Support</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="inner text-center text-lg-end">
+                        <img src="assets/images/play/illustration.png" alt="Play Illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====play section end====-->
+
+    <!--====invite section start====-->
+    <section>
+        <div class="container">
+            <div class="invite_wrapper">
+                <div class="row invite_row d-flex align-items-center">
+                    <div class="col-lg-8">
+                        <div class="inner">
+                            <h1>Invite Friends.</h1>
+                            <h1>Get Bonus.</h1>
+                            <p class="section_info">Once your friends sign up and deposit funds, you'll both get (cash) bonus into your account.!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="inner text-left text-lg-center">
+                            <a href="affiliate" class="btn btn-primary">Get Bonus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====invite section end====-->
+
+    <!--====testimonial section start====-->
+
+    <!--====testimonial section end====-->
+
+    <!--====accordion section start====-->
+    <section class="accordion_section">
+        <div class="container">
+            <div class="accordion_wrapper">
+                <div class="title_wrapper text-center">
+                    <h1 class="section_title">Frequently asked questions</h1>
+                    <p class="section_info">If you haven't found an answer to your question, <a href="contact">contact us</a></p>
+                    <a href="contact" class="btn btn-primary">ASK A QUESTION</a>
+                </div>
+                <!--accordion items start-->
+                <div class="accordion" id="accordionOne">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <img src="assets/images/faq/icon.png" alt="Icon"> How does Sports Betting work?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionOne">
+                            <div class="accordion-body">
+                                <p class="para">TurboDeal Exchange work just like any other financial markets. Traders from all around the globe use the exchange to place bets with each other. Betfair acts like a referee. By taking real-time information from thousands of football matches, horse races and other sports, TurboDeal makes sure the winners get paid and the losers pay up. For providing this service, TurboDeal take a 5% cut on all winning bets.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <img src="assets/images/faq/icon.png" alt="Icon">How do i open an account?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionOne">
+                            <div class="accordion-body">
+                                <p class="para">When the development phase is over, you can create an account with us one of the following ways: simply clicking here going to our homepage (www.turbodeal.io) and click on "SIGN IN" on the top right corner of the page. You'll be directed to our registration page where you need to enter some details</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <img src="assets/images/faq/icon.png" alt="Icon"> What is Sports Stock Market?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionOne">
+                            <div class="accordion-body">
+                                <p class="para">Buy, sell or trade your favourite athletes just like stocks on a stock market. e.g.:C. Ronaldo NFT has 1000 shares 1 share costs 1 dollar, and we put some events on his matches. Only the shareholders can bet on special event bets and earn special prices.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                <img src="assets/images/faq/icon.png" alt="Icon"> What is my reward for reffering a friend?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionOne">
+                            <div class="accordion-body">
+                                <p class="para">TurboDeal Referral Program gives you a chance to earn commissions for each successful registration using your referral code!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                <img src="assets/images/faq/icon.png" alt="Icon"> How do I make a deposit?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionOne">
+                            <div class="accordion-body">
+                                <p class="para">As TurboDeal is a decentralized platform, cryptocurrency is required as the medium of exchange. In the beginning, casino and betting will be through some other coins with users having the ability to deposit and withdraw BTC, Doge, LTC, XRP, TRX. However, the TURBO token will be introduced, which will be the governance token, enabling token holders to vote which event to be or bet or decide to add and game on the platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                <img src="assets/images/faq/icon.png" alt="Icon"> Betting exchange vs. Bookmaker: What’s the difference?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionOne">
+                            <div class="accordion-body">
+                                <p class="para">An exchange offers a platform for bettors to trade the outcome of certain events, whether that be sport, politics or current affairs. It differs to traditional sportsbooks by allowing bettors to bet against each other, rather than a bookmaker. Instead of being limited to the odds set by bookies, and only having the option to back a certain outcome, an exchange allows users to go head-to-head against each other by either backing or laying.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--accordion items end-->
+            </div>
+        </div>
+    </section>    
+    <section>
+        <div class="container">
+            <div class="experience">
+                <div class="experience_content text-center">
+                    <h1 class="section_title">Experience the future of Sports Betting Exchange</h1>
+                    <a href="trade" class="btn btn-primary">Start Trading</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row footer_nav d-flex align-items-center">
+                <div class="col-lg-7">
+                    <ul class="nav justify-content-center justify-content-sm-start">
+                        <li class="nav-item">
+                            <a class="nav-link ml-0" href="contact">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TERMS OF USE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRIVACY POLICY</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5">
+                    <ul class="nav justify-content-center justify-content-sm-start justify-content-lg-end">
+                        <li class="nav-item">
+                            <a class="nav-link ml-0" href="#">
+                                <img src="assets/images/footer/apple_store.png" alt="Download from Apple Store">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-0" href="#">
+                                <img src="assets/images/footer/google_store.png" alt="Download from Google Play Store">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row footer_copyright d-flex align-items-center">
+                <div class="col-lg-7 text-center text-sm-start">
+                    <p class="para">Copyright &#169; 2021. Made with passion by TurboDeal</a></p>
+                </div>
+                <div class="col-lg-5 text-center text-sm-start text-lg-end">
+                    <p class="para">All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollToTop"><i class="flaticon-up-chevron"></i></a>
+
+</body>
+</html>
